@@ -136,7 +136,7 @@
     margin-top: -3px;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 425px) {
     .payment-modal-wrapper{
         display: flex;
         justify-content: flex-end;
