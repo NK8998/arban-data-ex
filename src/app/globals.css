@@ -32,8 +32,8 @@ body {
 
 .route-wrapper{
   width: 100%;
-  padding: 0px 10px;
-  max-width: 350px;
+  padding: 0px 15px;
+  max-width: 425px;
   margin: auto;
   background-image: url('/images/bg-pattern.png');
   /* background-repeat: no-repeat; */
@@ -81,4 +81,11 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+@media (max-width: 350px) {
+  .route-wrapper{
+    padding: 0px 10px;
+  }
+  
 }

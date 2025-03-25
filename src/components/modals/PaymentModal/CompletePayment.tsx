@@ -55,10 +55,7 @@ export default function CompletePayment() {
         } else {
           toast.success("Payment successful");
         }
-      } else if (
-        res.data.responseMessage.includes("Technical Error") ||
-        res.data.responseMessage.includes("try again later")
-      ) {
+      } else if (res.data.responseMessage.includes("Technical Error")) {
         toast.error("Payment failed, please try again later");
       }
 

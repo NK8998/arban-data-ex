@@ -34,8 +34,15 @@ export default function Purchase() {
 
       <div className='network-banner'>
         <h2>Network</h2>
-        <div className='banner-container'>
-          <SafaricomBanner />
+        <div className='banner-container' style={{ aspectRatio: "594/142" }}>
+          <div className='inner-banner' style={{ aspectRatio: "594/142" }}>
+            <Image
+              src={"/images/saf-img.png"}
+              fill={true}
+              alt='safaricom image'
+              className='saf-img'
+            />
+          </div>
         </div>
       </div>
 
